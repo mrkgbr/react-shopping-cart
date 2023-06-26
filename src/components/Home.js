@@ -1,5 +1,11 @@
+import "./Home.css";
+
 const Home = () => {
-  return <h1>Hello from HOME</h1>;
+  return (
+    <div className="Home">
+      <h1>Hello from HOME</h1>
+    </div>
+  );
 };
 
 export default Home;

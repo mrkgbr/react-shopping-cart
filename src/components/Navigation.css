@@ -1,0 +1,39 @@
+.Navigation {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  justify-items: center;
+  padding: 20px 0px;
+  background-color: rgba(47, 255, 151, 0.493);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}

@@ -11,7 +11,7 @@ function App() {
   const [cartCounter, setCartCounter] = useState(0);
 
   return (
-    <>
+    <div className="App">
       <Navigation cartCounter={cartCounter} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

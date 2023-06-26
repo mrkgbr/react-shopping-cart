@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./Navigation.css";
 
 const Navigation = (props) => {
   return (
@@ -13,8 +14,9 @@ const Navigation = (props) => {
           </li>
         </ul>
       </nav>
-      <div className="counter">
-        <Link to="cart">CART:</Link> {props.cartCounter}
+      <div className="title">PAINT SHOP</div>
+      <div className="cart">
+        <Link to="cart">CART: {props.cartCounter}</Link>
       </div>
     </div>
   );
