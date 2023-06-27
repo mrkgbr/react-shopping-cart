@@ -1,0 +1,12 @@
+.Shop {
+  margin: auto;
+  background-color: burlywood;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  gap: 30px;
+}

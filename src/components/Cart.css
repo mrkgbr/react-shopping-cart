@@ -1,0 +1,17 @@
+.cart-list {
+  list-style-type: none;
+}
+
+.item-logo {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid;
+}
+
+.cart-list li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
