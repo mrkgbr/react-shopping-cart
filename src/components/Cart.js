@@ -6,12 +6,14 @@ const Cart = (props) => {
   }
   return (
     <div className="Cart">
-      <h1>This is your CART</h1>
+      <h1>CART</h1>
       <ul className="cart-list">
         {props.cartItems.map((item) => {
           return (
             <li key={item.id}>
-              {item.color}
+              <p>
+                {item.color} Count:{item.count}
+              </p>
               <div
                 style={{ backgroundColor: item.color }}
                 className="item-logo"
